@@ -1,0 +1,21 @@
+li {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+li:nth-child(even) {
+    background-color: white;
+}
+  
+  li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;  
+    font-size: 20px;
+}
